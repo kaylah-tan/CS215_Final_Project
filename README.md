@@ -8,7 +8,7 @@ This project is a two-person group project. The contributors are Clara Bates and
 ## II. Colab Worksheet
 The link to my Colab workbook can be found [here](https://colab.research.google.com/drive/16EMIzERPqem2CVYGsDjUBzvYeUO5rlab#scrollTo=bOSot0bqrTXf).
 
-## iii. Report
+## III. Report
 This report provides an overview of our project.
 
 # Battery Low: An Analysis of Washington State’s Electric Vehicle (EV) Charger Distribution
