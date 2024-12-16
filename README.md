@@ -19,16 +19,17 @@ For this project, we will be using two main datasets. The first dataset is an El
 Methods and Results
 We began by loading the CSV files into pandas dataframes, selecting the columns that were relevant to our research questions. Since we planned on analyzing the data by county, we were initially concerned that the EV population dataset didn’t have a county column. We were able to solve this issue by merging the EV population dataframe with the EV charging station dataframe on the ZIP code column. Our next step was to count the number of EV charging stations in each county, adding a station count column to the counties dataframe. This exact process was repeated for counting the number of EVs in each county. Once we had station and EV counts, we calculated the ratio of EVs to charging stations for each county. This gave us a more meaningful metric with which to compare charging station availability across the state. 
 	To analyze the data, we created two different visualizations. The first was a Mapbox scatterplot of EV charging stations by county. The size of the dot represents the number of EV charging stations, and the color of the dot represents the number of EVs per charging station.
-[insert photo here]
-
+ 
+ ![ev_stations (1)](https://github.com/user-attachments/assets/80ebf86a-42a8-4ed4-994b-15388c523fd0)
+**Figure 1: EV charging stations by county**
 
 Based on the map, King County has the most EV charging stations, and roughly 35 EVs per charging station. Counties with fewer EV charging stations also appear to have fewer EVs per charging station.
 
-
-
 The second visualization was a box plot of EV population by county. Similar to the other plot, the color indicates the ratio of EVs to charging stations in a county. 
 
-[insert photo here]
+![ev_count](https://github.com/user-attachments/assets/32cc2267-3590-4440-8d8b-430250a7b52e)
+**Figure 2: Electric Vehicle Counts by County**
+
 As expected, King County has the highest number of EVs, followed by Snohomish and Pierce County. This visualization also supports the claim that counties with more EVs have proportionally fewer charging stations.
 
 Conclusion
@@ -37,3 +38,10 @@ Based on the varying ratios by county, it appears that EV charging stations are 
 Another potential area of further study would be to analyze EV charging density with median income by county. Do counties with a higher median income also have a higher ratio of charging stations to electric vehicles? We could also compare gas station availability to EV charging station availability. Is it easier for owners of gas-powered vehicles to find a gas station than it is for EV owners to find a charging station?
 
 References
+
+U.S. Department of Energy. "Electricity Infrastructure Trends." Alternative Fuels Data Center,
+https://afdc.energy.gov/fuels/electricity-infrastructure-trends. Accessed 28 June 2024.
+
+U.S. Government Open Data. "Electric Vehicle Population Data." Data.gov,
+https://catalog.data.gov/dataset/electric-vehicle-population-data. Accessed 28 June 2024.
+
