@@ -1,6 +1,4 @@
-# Homework 10: Project Part III: Portfolio
-
-This repository will showcase Homework 10 for CS215: Introduction to Data Science. The purpose of this assignment is to develop a "public face" to present a data analysis project based on a personal research question. This public-facing presentation will communicate the findings showing both the analytical process and the insights derived from the data.
+# Battery Low: An Analysis of Washington State’s Electric Vehicle (EV) Charger Distribution
 
 ## I. Group Members
 This project is a two-person group project. The contributors are Clara Bates and Kaylah Tan.
@@ -10,8 +8,6 @@ The link to my Colab workbook can be found [here](https://colab.research.google.
 
 ## III. Report
 This report provides an overview of our project.
-
-# Battery Low: An Analysis of Washington State’s Electric Vehicle (EV) Charger Distribution
 
 Introduction
 <br>
